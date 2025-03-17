@@ -21,7 +21,7 @@
 // }
 
 // export default App
-
+import Input from "./Get Input Field Value/Input";
 import Props from "./belajarProps/Props";
 import Conditions from "./Fitur Toggle/multiple conditions/Conditions";
 import Toggle from "./Fitur Toggle/Toggle";
@@ -44,6 +44,7 @@ function App() {
       <Conditions />
 
       <Props name="alvin" age={20} email="alvin@gmail.com" />
+      <Input />
       
     </div>
   );
